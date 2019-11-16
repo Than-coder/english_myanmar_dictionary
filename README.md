@@ -1,5 +1,0 @@
-# English Myanmar Dictionary
-
-
-
-
