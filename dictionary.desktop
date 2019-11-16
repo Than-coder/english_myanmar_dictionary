@@ -1,0 +1,7 @@
+[Desktop Entry]
+
+Name=Dictionary
+Type=Application
+Path=/home/than/Documents/projects/nodejs/dictionary
+Exec= electron . /home/than/Documents/projects/nodejs/dictionary/main.js
+Icon=/home/than/Documents/projects/nodejs/dictionary/icon/electron_1.png

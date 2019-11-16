@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style:none;
+}
+
+/* search bar */
+.search-bar {
+    background: rgb(175, 174, 174);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-bottom: rgb(9, 168, 17) 3px solid;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#search-word {
+    border: none;
+    border: 1px solid #333;
+    padding: 7px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.margin-bottom {
+    margin-bottom: 3rem;
+}
+
+
+/* content */
+#section-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 1rem;
+}
+
+.found-word {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.found-word li {
+    background: rgb(219, 218, 218);
+    border-bottom: .5px solid #333;
+    border-radius: 2px;
+    padding: 10px; 
+}
+
+.found-word li {
+    font-size: 1.3rem;
+}
+
+
+/* history */
+.history {
+    font-size: 1.2rem;
+    cursor: pointer;
+}

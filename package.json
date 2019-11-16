@@ -1,0 +1,35 @@
+{
+  "name": "electron_main",
+  "version": "1.0.0",
+  "description": "electron project basic",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "build": "electron-builder build --linux"
+  },
+  "author": "thanzawwin",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.20.2",
+    "mongoose": "^5.6.10",
+    "sqlite3": "^4.1.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "electron": "^7.1.1",
+    "electron-builder": "^21.2.0"
+  },
+  "build": {
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  }
+}
