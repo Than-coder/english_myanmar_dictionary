@@ -11,10 +11,7 @@
   "author": "thanzawwin",
   "license": "ISC",
   "dependencies": {
-    "knex": "^0.20.2",
-    "mongoose": "^5.6.10",
-    "sqlite3": "^4.1.0",
-    "uuid": "^3.3.3"
+    "sqlite3": "^4.1.0"
   },
   "devDependencies": {
     "electron": "^7.1.1",
